@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #f1d3e8;
+}
+
+header{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(206, 107, 123);
+}
+
+.nav-header{
+    height: 73px;
+    margin: auto;
+}
+
+.menu-header{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-header li:hover{
+    border-bottom: 3px solid #ffff;
+}
+
+table{
+    width: 800px;
+    height: 600px;
+}
+
+table, tr, td{
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: row;
+}
+
+.tr-titulo{
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    height: 50px;
+}
+
+.tr0{
+    background-color: rgb(231, 139, 154);
+    color: black;
+    font-weight: bold;
+    height: 40px;
+}
+
+.tr1{
+    background-color: rgb(255, 230, 251);
+}
+
+.tr2{
+    background-color: rgb(255, 230, 251);
+}
+
+.tr3{
+    background-color: rgb(255, 230, 251);
+}
+
+.tr4{
+    background-color: rgb(255, 230, 251);
+}
+
+.filmes img{
+    width: 120px;
+    height: 200px;
+}
+
+footer{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(206, 107, 123);
+    margin-top: 20px;
+}
+
+.nav-footer{
+    height: 70px;
+    margin-top: 30px;
+}
+
+.menu-footer{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-footer li:hover{
+    border-bottom: 3px solid #ffff;
+}
+
+.texto-footer{
+    font-size: 15px;
+    margin-top: 15px;
+}
